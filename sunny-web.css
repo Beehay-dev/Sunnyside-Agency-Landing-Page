@@ -1,0 +1,362 @@
+
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    header{
+
+      height: 100vh;
+      background-image: url("./images/desktop/image-header.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    header nav{
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      color: white;
+    }
+    header nav ul{
+      border: 2px solid green;
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      
+    }
+    header h1{
+      border: 2px solid red;
+      color: aliceblue;
+      text-align: center;
+      margin-top: 40px; 
+      font-size: 50px;
+    }
+     header .arrow{
+      margin-top: 30px;
+      text-align: center;
+     }
+      .egg-layout{
+      border: 3px solid green;
+      display: flex;
+     }
+     .transform-container{
+      border: 2px solid purple;
+      width: 50%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .transform-content{
+      border: 2px solid red;
+      max-width: 400px;
+      
+    
+     }
+     .transform-content h1{
+      font-size: 50px;
+     }
+     .egg-image{
+      border: 2px solid blue;
+      width: 50%;
+      height: 500px;
+      background-image: url("./images/desktop/image-transform.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .grid-section{
+      border: 3px solid black;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     }
+     .cup-image{
+      height: 500px;
+      border: 2px solid  red;
+      background-image: url(./images/desktop/image-stand-out.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+     }
+     .audience-container{
+      height: 500px;
+      border: 2px solid  blue;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+     }
+     .graphic-container{
+      height: 500px;
+      border: 2px solid  red;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      background-image: url(./images/desktop/image-graphic-design.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat:no-repeat;
+     }
+     .graphic-content{
+      border: 2px solid purple;
+      max-width: 300px;
+      text-align: center;
+      margin-bottom: 20px;
+     }
+     .photography-container{
+      height: 500px;
+      border: 2px solid  red;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      background-image: url(./images/desktop/image-photography.jpg);
+     } 
+     .p-content{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .audience-content{
+        border: 2px solid green;
+        max-width: 400px;
+     }
+     .aud-content{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .grap-apple{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .photography-content{
+      border: 2px solid blue;
+      max-width: 300px;
+      text-align: center;
+      margin-bottom: 20px
+     }
+     .photo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .audience-content h1{
+        font-size: 50px;
+     
+     }
+     .testimonials {
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #fefcf7; /* Light background like the image */
+  }
+  
+  .client {
+      margin-bottom: 32px; /* Add spacing under the heading */
+      font-size: 24px;
+      color: gray;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  }
+  
+  .other-testimony-1 {
+    border: 2px solid green;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      align-items: flex-start;
+      max-width: 100%;
+  }
+  
+  .testimony-1, .other-testimony-2, .other-testimony-3 {
+    border: 3px solid red;
+      max-width: 300px;
+      text-align: center;
+  }
+  
+  .testimony-1 img, .other-testimony-2 img, .other-testimony-3 img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+  }
+  
+  p {
+      font-size: 1rem;
+      color: #5a5a5a;
+  }
+  
+  h4 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      font-weight: bold;
+  }
+
+  .grid-4{
+    height: auto;
+    border: 3px solid peru;
+    
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .box-1, .box-2, .box-3, .box-4{
+    border: 3px solid red;
+    height: 300px;
+  }
+  .box-1{
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-2{
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-3{
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-4{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.footer {
+  background-color: #75cab6;
+  padding: 40px ;
+  text-align: center;
+  border: 3px solid black; 
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+
+.footer-logo img {
+  width: 120px;
+  border: 2px solid blue; 
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  border: 2px dashed green;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  border: 1px solid orange; 
+  padding: 5px 10px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+  border: 2px dashed purple;
+  padding: 10px;
+}
+
+.footer-socials img {
+  width: 24px;
+  border: 1px solid cyan;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+      border-color: pink;
+  }
+
+  .footer-nav {
+      flex-direction: column;
+      gap: 15px;
+      border-color: darkgreen;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width:600px){
+  .egg-layout{
+    flex-direction: column-reverse;
+   }
+   .transform-container{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+   }
+   .egg-image{
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/mobile/image-transform.jpg");
+   }
+   .grid-section{
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .other-testimony-1 {
+      flex-direction: column;
+  }
+  .testimonials {
+    height: auto;
+} 
+.grid-container{
+  grid-template-columns: repeat(2, 1fr);
+}
+.box-1{
+  background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+
+}
+.box-2{
+  background-image: url(./images/mobile/image-gallery-orange.jpg);
+
+}
+.box-3{
+  background-image: url(./images/mobile/image-gallery-cone.jpg);
+}
+.box-4{
+  background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+}
+.photography-container{
+  background-image: url(./images/mobile/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+}
