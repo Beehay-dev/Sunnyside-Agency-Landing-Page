@@ -325,6 +325,11 @@
     height: 500px;
     background-image: url("./images/mobile/image-transform.jpg");
    }
+   .audience-container{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+   }
    .grid-section{
     grid-template-columns: repeat(1, 1fr);
    }
@@ -333,6 +338,7 @@
   }
   .testimonials {
     height: auto;
+    padding-top: 20px;
 } 
 .grid-container{
   grid-template-columns: repeat(2, 1fr);
@@ -357,6 +363,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.other-testimony-3{
+  padding-bottom: 20px;
 }
 
 }
